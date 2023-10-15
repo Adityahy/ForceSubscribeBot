@@ -21,7 +21,7 @@ else:
     API_HASH = "79ffeb00750fff0535f581d13be4e4e4
 "
     BOT_TOKEN = "6668863567:AAGQFCvBTyuRWHlBk0GHqAnQdjZ4JZGUsPU"
-    DATABASE_URL = ""
+    DATABASE_URL = "mongodb+srv://adityayad206:@cluster0.db0a2do.mongodb.net/?retryWrites=true&w=majority"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = "StarkBots"
     if MUST_JOIN.startswith("@"):
